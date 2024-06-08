@@ -1,5 +1,3 @@
-// src/components/SideMenuBar.js
-
 import React from 'react';
 import '../styles/SideMenuBar.css'; 
 import imgIcon from '../imgs/imgIcon.png';
