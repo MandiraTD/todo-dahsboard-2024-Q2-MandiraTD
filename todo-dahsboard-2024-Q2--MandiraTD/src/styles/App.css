@@ -1,0 +1,122 @@
+/* src/App.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 250px; /* Make space for the side menu */
+    padding: 20px;
+    flex-grow: 1;
+  }
+
+
+  /* Main Content with Header */
+  .main-content {
+    margin-left: 250px; /* Same width as the side menu */
+    width: calc(100% - 250px); /* Adjust the width of the main content */
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #fdfdfd; /* Light grey background */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #726e6e; /* Optional: Add a subtle bottom border */
+    margin-left: 100px;
+  }
+
+  .containers {
+    display: flex; /* Enables Flexbox layout */
+    justify-content: flex-start; /* Aligns items to the start */
+    gap: 10px; /* Adds space between containers */
+}
+
+.boxd {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.aligned {
+  display: flex;
+  align-items: center;
+}
+
+p{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.a1{
+  color: #757575;
+}
+
+.a2{
+  color: palevioletred;
+}
+ 
+hr{
+  border: 1px solid #E4E7EC;
+}
+
+/* src/components/App.css */
+
+.activity-feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.activity-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.activity-details {
+  flex: 1;
+  font-size: 14px; /* Base font size */
+}
+
+.activity-details .a2 {
+  color: #007bff; /* Example color */
+}
+
+.activity-details .a1 {
+  color: #999999; /* Example color */
+}
+
+@media (max-width: 768px) {
+  .activity-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .activity-details {
+    font-size: 13px; /* Smaller font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .activity-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .activity-details {
+    font-size: 12px; /* Smaller font size for mobile */
+  }
+}
+
+  
