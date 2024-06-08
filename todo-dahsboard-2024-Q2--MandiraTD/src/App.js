@@ -1,5 +1,3 @@
-// src/App.js
-
 import React from 'react';
 import './styles/SideMenuBar.css'; // Main App styles
 import './styles/App.css';
